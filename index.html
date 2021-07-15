@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testando APIs</title>
+  </head>
+  <body>
+    <main>
+      <ul></ul>
+    </main>
+    <script type="text/javascript">
+      async function getvalue() {
+        try {
+          const response = await fetch("http://localhost:8080/api");
+          const data = await response.json();
+          show(data);
+        } catch (error) {
+          console.error(error);
+        }
+      }
+
+      function show(data) {
+        for (let i = 0; i < 10; i++) {
+          document.querySelector(
+            "main ul"
+          ).innerHTML += `<li>${data[i].name}</li>`;
+        }
+      }
+
+      getvalue();
+    </script>
+  </body>
+</html>
