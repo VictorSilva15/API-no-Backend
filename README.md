@@ -56,12 +56,9 @@ Esse comando irá procurar o index.html e rodar o arquivo no localhost:3000. Qua
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-
-- [Express](https://expressjs.com/pt-br/)
-
----
-
+- [NodeJS](https://nodejs.org/en/)
 - npm packages
 
 ```bash
