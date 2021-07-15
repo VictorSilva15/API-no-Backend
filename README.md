@@ -1,7 +1,5 @@
 # API no BackEnd
 
-# Página Web com EJS (HTML inteligente)
-
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="blank"><img alt="GitHub issues" src="https://img.shields.io/static/v1?label=tech&message=HTML5&color=E34F26&style=for-the-badge&logo=HTML5"></a> <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="blank"><img alt="GitHub issues" src="https://img.shields.io/static/v1?label=tech&message=JavaScript&color=F7DF1E&style=for-the-badge&logo=JavaScript"></a> <a href="https://nodejs.org/en/"  target="blank"><img  alt="GitHub issues" src="https://img.shields.io/static/v1?label=tech&message=NODE&color=339933&style=for-the-badge&logo=node.js"></a> <a href="https://expressjs.com/pt-br/"><img  alt="GitHub issues"  src="https://img.shields.io/static/v1?label=tech&message=EXPRESS&color=000000&style=for-the-badge&logo=express"></a> <a  href="https://www.npmjs.com/"><img  alt="GitHub issues"  src="https://img.shields.io/static/v1?label=tech&message=NPM&color=CB3837&style=for-the-badge&logo=npm"></a> <a href="https://www.codewars.com/users/Victor%20Hugo%20da%20Silva" target="blank"><img alt="CodeWars" src="https://img.shields.io/static/v1?label=Follow&message=CodeWars&color=B1361E&style=for-the-badge&logo=codewars"></a>
 
 Esse projeto foi construído com intuito de prática e aprendizado. Basicamente ele faz a requisição de uma API através do Back End, usando o axios, que é um pacote do Node. Quando os dados são capturados, então é usado o fetch no Front-end, uma API nativa do Browser que faz requisições através de uma URL. Para conectar o front-end com o back-end foi utilizado o cors, para permitir que um servidor qualquer consiga extrair os dados da API que pegamos pelo back-end. e por fim utilizamos o Nodemon, que fica observando o `server.js` para que se haja qualquer alteração, ele reinicie automaticamente.
@@ -17,19 +15,19 @@ Para executar essa projeto será necessário você seguir alguns passos para nã
 Agora faça um git clone usando o comando:
 
 ```bash
-    git clone https://github.com/VictorSilva15/API-no-Backend.git
+git clone https://github.com/VictorSilva15/API-no-Backend.git
 ```
 
 A pasta do projeto será instalada na sua maquina. Agora para executar, primeiramente entre no projeto com:
 
 ```bash
-    cd api-no-backend
+cd api-no-backend
 ```
 
 Em seguida use:
 
 ```bash
-    npm i
+npm i
 ```
 
 Esse comando fará a instalação da node_modules e das dependecias necessárias para a aplicação ser executada.
@@ -41,7 +39,7 @@ Se quiser modificar o código será necessário um editor de códigos de sua pre
 Para rodar a aplicação, você deve estar na pasta do projeto e dentro dela rode o seguinte comando:
 
 ```bash
-    npm start
+npm start
 ```
 
 Isso fará com que o servidor seja iniciado no localhost:8080/api
@@ -67,19 +65,19 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - npm packages
 
 ```bash
-    npm i express
+npm i express
 ```
 
 ```bash
-    npm i nodemon
+npm i nodemon
 ```
 
 ```bash
-    npm i axios
+npm i axios
 ```
 
 ```bash
-    npm i cors
+npm i cors
 ```
 
 ---
